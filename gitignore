@@ -1,0 +1,12 @@
+.DS_Store
+__pycache__
+*.pyc
+*.pyo
+.idea/
+venv/
+.pydevproject
+/app/bower_components/
+/vcode
+vcode
+/logs/
+*.lic
