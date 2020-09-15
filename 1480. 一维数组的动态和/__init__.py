@@ -1,4 +1,7 @@
+import time
 from typing import List
+
+from Utils.common import run_time
 
 """
 题目：
@@ -28,6 +31,7 @@ runningSum2
 
 
 class Solution:
+    @run_time
     def runningSum(self, nums: List[int]) -> List[int]:
         res_nums = []
         current_sum = 0
@@ -37,6 +41,7 @@ class Solution:
 
         return res_nums
 
+    @run_time
     def runningSum2(self, nums: List[int]) -> List[int]:
 
         for i in range(1, len(nums)):

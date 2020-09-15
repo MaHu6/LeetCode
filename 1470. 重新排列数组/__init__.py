@@ -1,5 +1,7 @@
 from typing import List
 
+from Utils.common import run_time
+
 """
 shuffle
 
@@ -25,6 +27,7 @@ shuffle2
 
 
 class Solution:
+    @run_time
     def shuffle(self, nums: List[int], n: int) -> List[int]:
 
         getDesIndex = lambda i: i * 2 if i < n else (i - n) * 2 + 1
@@ -40,6 +43,7 @@ class Solution:
 
         return nums
 
+    @run_time
     def shuffle2(self, nums: List[int], n: int) -> List[int]:
 
         res_nums = []

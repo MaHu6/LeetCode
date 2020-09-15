@@ -1,5 +1,7 @@
 from typing import List
 
+from Utils.common import run_time
+
 """
 前序遍历:打印-左-右
 中序遍历:左-打印-右
@@ -36,6 +38,7 @@ class TreeNode:
 
 class Solution:
     # 递归方式
+    @run_time
     def inorderTraversal(self, root: TreeNode) -> List[int]:
         res = []
 
@@ -51,6 +54,7 @@ class Solution:
         return res
 
     # 迭代方式
+    @run_time
     def inorderTraversal2(self, root: TreeNode) -> List[int]:
         res = []
         stacks = []
