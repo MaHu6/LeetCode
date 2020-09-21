@@ -22,3 +22,5 @@
 [剑指 Offer 58 - II. 左旋转字符串](https://github.com/MaHu6/LeetCode/blob/master/剑指%20Offer%2058%20-%20II.%20左旋转字符串/__init__.py)
 
 [剑指 Offer 64. 求1+2+…+n](https://github.com/MaHu6/LeetCode/blob/master/剑指%20Offer%2064.%20求1%2B2%2B…%2Bn/__init__.py)
+
+[面试题 08.07. 无重复字符串的排列组合](https://github.com/MaHu6/LeetCode/blob/master/面试题%2008.07.%20无重复字符串的排列组合/__init__.py)
