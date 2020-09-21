@@ -1,11 +1,17 @@
 from typing import List
 
 from Utils.common import run_time
+from Utils.var import TreeNode
 
 """
-前序遍历:打印-左-右
-中序遍历:左-打印-右
-后序遍历:左-右-打印
+A：根节点、B：左节点、C：右节点，
+    A
+   / \
+  B   C
+
+前序顺序是ABC（根节点排最先，然后同级先左后右）；
+中序顺序是BAC(先左后根最后右）；
+后序顺序是BCA（先左后右最后根）。
 """
 
 """
@@ -26,14 +32,6 @@ from Utils.common import run_time
 
 
 """
-
-
-# Definition for a binary tree node.
-class TreeNode:
-    def __init__(self, x):
-        self.val = x
-        self.left = None
-        self.right = None
 
 
 class Solution:
