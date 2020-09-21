@@ -15,3 +15,10 @@
 [1431. 拥有最多糖果的孩子](https://github.com/MaHu6/LeetCode/blob/master/1431.%20拥有最多糖果的孩子/__init__.py)
 
 [1486. 数组异或操作](https://github.com/MaHu6/LeetCode/blob/master/1486.%20数组异或操作/__init__.py)
+
+## 2020.09.21
+[538. 把二叉搜索树转换为累加树](https://github.com/MaHu6/LeetCode/blob/master/538.%20把二叉搜索树转换为累加树/__init__.py)
+
+[剑指 Offer 58 - II. 左旋转字符串](https://github.com/MaHu6/LeetCode/blob/master/剑指%20Offer%2058%20-%20II.%20左旋转字符串/__init__.py)
+
+[剑指 Offer 64. 求1+2+…+n](https://github.com/MaHu6/LeetCode/blob/master/剑指%20Offer%2064.%20求1%2B2%2B…%2Bn/__init__.py)
