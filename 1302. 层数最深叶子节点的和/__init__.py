@@ -2,6 +2,8 @@ from typing import List
 
 from binarytree import Node as TreeNode
 
+from Utils.common import list2BinaryTree
+
 """
 给你一棵二叉树，请你返回层数最深的叶子节点的和。
 
@@ -53,20 +55,6 @@ class Solution:
         dfs(root, 0)
 
         return self.res
-
-
-# 列表转二叉树
-def list2BinaryTree(root: TreeNode, nums: List, i: int):
-    if i < len(nums):
-        if nums[i] == None:  # 节点是空的时候 返回空
-            return None
-        else:
-            root = TreeNode(nums[i])
-            root.left = list2BinaryTree(root.left, nums, i * 2 + 1)
-            root.right = list2BinaryTree(root.right, nums, i * 2 + 2)
-        return root
-
-    return root
 
 
 if __name__ == '__main__':

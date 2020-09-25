@@ -1,6 +1,9 @@
 import datetime
 import time
 from functools import wraps
+from typing import List
+
+from binarytree import Node as TreeNode
 
 
 def run_time(func):
@@ -19,3 +22,17 @@ def run_time(func):
 
 def format_runtime(t) -> str:
     return f"{datetime.timedelta(seconds=t)}"
+
+
+# 列表转二叉树
+def list2BinaryTree(root: TreeNode, nums: List, i: int):
+    if i < len(nums):
+        if nums[i] == None:  # 节点是空的时候 返回空
+            return None
+        else:
+            root = TreeNode(nums[i])
+            root.left = list2BinaryTree(root.left, nums, i * 2 + 1)
+            root.right = list2BinaryTree(root.right, nums, i * 2 + 2)
+        return root
+
+    return root

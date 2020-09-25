@@ -1,7 +1,7 @@
 from typing import List
 
-from Utils.common import run_time
-from Utils.var import TreeNode
+from Utils.common import run_time, list2BinaryTree
+from binarytree import Node as TreeNode
 
 """
 A：根节点、B：左节点、C：右节点，
@@ -12,6 +12,22 @@ A：根节点、B：左节点、C：右节点，
 前序顺序是ABC（根节点排最先，然后同级先左后右）；
 中序顺序是BAC(先左后根最后右）；
 后序顺序是BCA（先左后右最后根）。
+
+           a
+          / \
+         b   c
+        / \  / \
+       d  e  f  g
+
+
+前序：根左右  a b d e c f g
+
+中序：左根右  d b e a f c g
+
+后序：左右根  d e b f g c a
+
+
+
 """
 
 """
@@ -97,5 +113,10 @@ if __name__ == '__main__':
     root = initNode()
 
     s = Solution()
-    print(s.inorderTraversal(root))
-    print(s.inorderTraversal2(root))
+
+    nums = [1, 2, 3, 4, 5, 6, 7]
+    target_node = list2BinaryTree(None, nums, 0)
+    print(target_node)
+
+    print(s.inorderTraversal(target_node))
+    print(s.inorderTraversal2(target_node))
