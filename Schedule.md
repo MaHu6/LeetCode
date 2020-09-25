@@ -1,5 +1,12 @@
 # Schedule
 
+## 2020.09.25
+[106. 从中序与后序遍历序列构造二叉树](https://github.com/MaHu6/LeetCode/blob/master/106.%20从中序与后序遍历序列构造二叉树/__init__.py)
+
+[144. 二叉树的前序遍历](https://github.com/MaHu6/LeetCode/blob/master/144.%20二叉树的前序遍历/__init__.py)
+
+[145. 二叉树的后序遍历](https://github.com/MaHu6/LeetCode/blob/master/145.%20二叉树的后序遍历/__init__.py)
+
 ## 2020.09.22
 [654. 最大二叉树](https://github.com/MaHu6/LeetCode/blob/master/654.%20最大二叉树/__init__.py)
 
