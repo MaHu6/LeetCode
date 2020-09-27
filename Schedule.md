@@ -1,5 +1,12 @@
 # Schedule
 
+## 2020.09.27
+[442. 数组中重复的数据](https://github.com/MaHu6/LeetCode/blob/296ebff1bdf90e47103c19d892e9dcf44cbea078/442.%20数组中重复的数据/__init__.py)
+
+[剑指 Offer 47. 礼物的最大价值](https://github.com/MaHu6/LeetCode/blob/296ebff1bdf90e47103c19d892e9dcf44cbea078/剑指%20Offer%2047.%20礼物的最大价值/__init__.py)
+
+[面试题 17.11. 单词距离](https://github.com/MaHu6/LeetCode/blob/296ebff1bdf90e47103c19d892e9dcf44cbea078/面试题%2017.11.%20单词距离/__init__.py)
+
 ## 2020.09.25
 [106. 从中序与后序遍历序列构造二叉树](https://github.com/MaHu6/LeetCode/blob/master/106.%20从中序与后序遍历序列构造二叉树/__init__.py)
 
